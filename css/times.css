@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Arial", Arial, sans-serif;
+    font-size: 1em;
+    margin: 10px;
+    /*font-family: font stack required for body text */
+}
+h1, h2, h3, h4{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.875em;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    
+    /*font-family: font stack required for headings */
+}
+p{
+    margin: 10px;
+    text-align: left;
+}
+.container{
+    max-width: 1500px;
+}
+.subnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 0; flex-grow: 1;
+    float: right;
+    margin: 5px;
+    width: 150px;
+}
+.subnav a{
+    color: hsl(354, 96%, 51%);
+}
+.mainnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: auto; flex-grow: 0;
+    margin: 10px;
+}
+.mainnav a{
+    color: hsl(354, 96%, 51%);
+}
+.masthead{
+    
+}
+.times-logo{
+    max-width: 100%;
+}
+.masthead h1{
+    font-size: 2em;
+}
+.content{
+    
+}
+.content .story{
+    
+}
+.story.lead-story{
+    font-style: oblique;
+}
+h1.story-title{
+    font-size: 1.5em;
+}
+.story img{
+    float: right;
+    max-width: 50%;
+    max-height: 50%;
+}
+.story p{
+    
+}
+.story blockquote{
+    text-align: center;
+    font-size: 1em;
+    color: hsl(10, 50%, 70%);
+    margin: 2px;
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+}
+.story p.byline{
+    
+}
+p.byline span.author{
+    
+}
+p.byline span.pub{
+    
+}
+.foot{
+    
+}
+.foot p{
+    text-align: center;
+    padding: 20px;
+}
